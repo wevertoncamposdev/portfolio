@@ -417,6 +417,16 @@ button:hover {
     object-fit: cover;
 }
 
+@media (max-width:1000px) {
+    .service-item img {
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
 .service-item h4 {
     transition: all 0.5s;
 }
